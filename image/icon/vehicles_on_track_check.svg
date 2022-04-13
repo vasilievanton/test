@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="13px" viewBox="0 0 15 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Element/Icon/Check</title>
+    <g id="Tablet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-–-Home" transform="translate(-438.000000, -190.000000)" fill="#00C1D4">
+            <g id="Component/Card-Metric" transform="translate(397.000000, 140.000000)">
+                <g id="Icon-Circle" transform="translate(24.000000, 32.000000)">
+                    <g id="Element/Icon/Check" transform="translate(15.000000, 15.000000)">
+                        <path d="M16.2018761,6.03666257 L7.95972804,14.7014613 C7.42889623,15.2595137 6.56951892,15.2595137 6.04004474,14.7014613 L2.59710496,11.0833976 C2.06763079,10.5253451 2.06763079,9.62189966 2.59710496,9.06384723 C3.12793677,8.50722204 3.98731409,8.50722204 4.51678826,9.06384723 L6.99988639,11.6742766 L14.2821928,4.01853946 C14.8116669,3.46048704 15.6710442,3.46048704 16.2018761,4.01853946 C16.7327079,4.57516465 16.7327079,5.47861014 16.2018761,6.03666257" id="🎨-Icon-color"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
