@@ -92,6 +92,7 @@ body {
 .wrapper {
   min-height: 100%;
   overflow: hidden;
+  padding: 0 0 50px 0;
 }
 
 .header {
@@ -159,6 +160,9 @@ body {
   }
 }
 @media (max-width: 768px) {
+  .header {
+    margin-bottom: 60px;
+  }
   .header__logo {
     padding: 0;
   }
@@ -183,8 +187,9 @@ body {
     height: 32px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .header {
+    margin-bottom: 30px;
     height: 50px;
   }
   .header__menu-icon {
@@ -224,9 +229,9 @@ body {
   padding: 0 24px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .container {
-    max-width: 324px;
+    max-width: 377px;
   }
 }
 .section_1 {
@@ -293,25 +298,35 @@ body {
     -ms-grid-column: 3;
   }
 }
-@media (max-width: 375px) {
-  .section_1 {
-    -ms-grid-columns: 156px 24px 156px;
+@media (max-width: 425px) {
+  .wrapper .section_1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 156px 14px 156px;
     grid-template-columns: 156px 156px;
-    -ms-grid-rows: 1fr 24px 1fr;
-    grid-template-rows: 1fr 1fr;
-        grid-template-areas: "welcome welcome" "vehicles distance";
+    -ms-grid-rows: 184px 18px 164px 18px 371px;
+    grid-template-rows: 184px 164px 371px;
+    grid-column-gap: 14px;
+    grid-row-gap: 18px;
+        grid-template-areas: "welcome welcome" "vehicles distance" "trips trips";
   }
-  .section_1 .welcome {
+  .wrapper .section_1 > .welcome {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
   }
-  .section_1 .distance-driven {
+  .wrapper .section_1 > .todays-trips {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+  }
+  .wrapper .section_1 > .distance-driven {
     -ms-grid-row: 3;
     -ms-grid-column: 3;
   }
-  .section_1 .vehicles-on-track {
+  .wrapper .section_1 > .vehicles-on-track {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
   }
@@ -381,6 +396,17 @@ body {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
+  }
+}
+@media (max-width: 425px) {
+  .section_3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 .card {
@@ -459,7 +485,11 @@ body {
         align-self: center;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
+  .welcome {
+    padding: 26px 0;
+    margin: auto 0;
+  }
   .welcome__container {
     -ms-grid-rows: 1fr;
     -ms-grid-columns: 1fr 20px 1fr;
@@ -553,8 +583,8 @@ body {
         -ms-flex-align: center;
             align-items: center;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin: 0 16px 0 0;
     background-color: rgba(0, 193, 212, 0.15);
   }
@@ -581,55 +611,25 @@ body {
     display: none;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .small-card__container {
-    padding: 0;
-    margin: 27px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    margin: 17px;
   }
   .small-card__body {
     display: block;
   }
   .small-card__check {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    margin: 0 16px 0 0;
-    background-color: rgba(0, 193, 212, 0.15);
-  }
-  .small-card__check-purple {
-    background-color: rgba(140, 84, 255, 0.15);
+    margin: 0 0 17px 0;
   }
   .small-card__title {
     margin: 0;
   }
   .small-card__num {
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 300;
     letter-spacing: -0.6px;
     margin: 0 0 12px 0;
     color: #2e384d;
-  }
-  .small-card__index {
-    display: none;
-  }
-  .small-card__percent {
-    display: none;
   }
 }
 .todays-trips__body {
@@ -676,6 +676,9 @@ body {
 .todays-trips__chart-tablet {
   display: none;
 }
+.todays-trips__chart-mob {
+  display: none;
+}
 
 @media (max-width: 768px) {
   .todays-trips__body {
@@ -692,6 +695,21 @@ body {
     max-width: 672px;
   }
   .todays-trips__chart-tablet img {
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .todays-trips__chart-tablet {
+    display: none;
+  }
+  .todays-trips__chart-mob {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    max-width: 272px;
+  }
+  .todays-trips__chart-mob img {
     width: 100%;
   }
 }
@@ -772,6 +790,16 @@ body {
 @media (max-width: 768px) {
   .fleet-activity-map__ways {
     display: none;
+  }
+}
+@media (max-width: 425px) {
+  .fleet-activity-map {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  .top-drivers {
+    padding: 0 0 26px 0;
   }
 }
 .driver {
@@ -911,6 +939,17 @@ body {
   color: #8798ad;
 }
 
+@media (max-width: 425px) {
+  .driver:nth-child(4) {
+    display: none;
+  }
+  .driver:nth-child(5) {
+    display: none;
+  }
+  .driver:nth-child(6) {
+    display: none;
+  }
+}
 .trips-by-type__chart {
   max-width: 316px;
   margin: 0 auto;
@@ -959,6 +998,11 @@ body {
   color: #8798ad;
 }
 
+@media (max-width: 425px) {
+  .trips-by-type {
+    padding: 0 0 26px 0;
+  }
+}
 .service-reminders {
   overflow: hidden;
 }
@@ -1015,5 +1059,10 @@ body {
   }
   .service-reminders__options {
     display: inline;
+  }
+}
+@media (max-width: 425px) {
+  .service-reminders {
+    display: none;
   }
 }
