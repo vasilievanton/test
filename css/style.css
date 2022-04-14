@@ -87,6 +87,7 @@ body {
   font-family: Rubik, sans-serif;
   background-color: #f4f6fc;
   font-size: 15px;
+  font-weight: 300;
 }
 
 .wrapper {
@@ -111,9 +112,11 @@ body {
   height: 14px;
 }
 .header__container {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   width: 1140px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 24px 0 104px;
 }
 .header__title {
   display: none;
@@ -159,9 +162,6 @@ body {
   }
 }
 @media (max-width: 768px) {
-  .header {
-    margin-bottom: 60px;
-  }
   .header__logo {
     padding: 0;
   }
@@ -186,9 +186,8 @@ body {
     height: 32px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 690px) {
   .header {
-    margin-bottom: 30px;
     height: 50px;
   }
   .header__menu-icon {
@@ -227,7 +226,7 @@ body {
   z-index: 50;
   top: 0;
   left: -100%;
-  height: 100%;
+  height: 1800px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   overflow: hidden;
@@ -243,6 +242,9 @@ body {
   width: 215px;
 }
 .menu.active:hover .person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   left: 0;
 }
 .menu.active:hover .navigation__title {
@@ -254,6 +256,9 @@ body {
 }
 
 .person {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  display: none;
   position: absolute;
   left: -200%;
 }
@@ -316,18 +321,25 @@ body {
 }
 
 .container {
-  max-width: 1140px;
-  margin: 64px auto 0;
-  padding: 0 24px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 24px 0 104px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .container {
-    max-width: 377px;
+    margin: 60px auto 0;
+  }
+}
+@media (max-width: 690px) {
+  .container {
+    margin: 30px auto 0;
   }
 }
 .section_1 {
-  margin: 0 0 35px 0;
+  margin: 64px 0 35px 0;
   display: -ms-grid;
   display: grid;
   grid-gap: 24px;
@@ -363,10 +375,11 @@ body {
 
 @media (max-width: 768px) {
   .section_1 {
+    margin: 60px 0 0 0;
     -ms-grid-columns: 1fr 24px 1fr;
     grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 142px 24px 142px 24px auto;
-    grid-template-rows: 142px 142px auto;
+    -ms-grid-rows: 1fr 24px 1fr 24px auto;
+    grid-template-rows: 1fr 1fr auto;
         grid-template-areas: "welcome vehicles" "welcome distance" "trips trips";
   }
   .section_1 .welcome {
@@ -390,35 +403,36 @@ body {
     -ms-grid-column: 3;
   }
 }
-@media (max-width: 425px) {
-  .wrapper .section_1 {
+@media (max-width: 690px) {
+  .section_1 {
+    margin: 30px 0 0 0;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 156px 14px 156px;
-    grid-template-columns: 156px 156px;
-    -ms-grid-rows: 184px 18px 164px 18px 371px;
-    grid-template-rows: 184px 164px 371px;
+    -ms-grid-columns: 1fr 14px 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 256fr 18px 203fr 18px 516fr;
+    grid-template-rows: 256fr 203fr 516fr;
     grid-column-gap: 14px;
     grid-row-gap: 18px;
         grid-template-areas: "welcome welcome" "vehicles distance" "trips trips";
   }
-  .wrapper .section_1 > .welcome {
+  .section_1 .welcome {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
   }
-  .wrapper .section_1 > .todays-trips {
+  .section_1 .todays-trips {
     -ms-grid-row: 5;
     -ms-grid-row-span: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
   }
-  .wrapper .section_1 > .distance-driven {
+  .section_1 .distance-driven {
     -ms-grid-row: 3;
     -ms-grid-column: 3;
   }
-  .wrapper .section_1 > .vehicles-on-track {
+  .section_1 .vehicles-on-track {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
   }
@@ -490,7 +504,7 @@ body {
     -ms-grid-column-span: 3;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 690px) {
   .section_3 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -526,6 +540,7 @@ body {
 
 .welcome {
   padding: 45px 0 42px;
+  height: 100%;
 }
 .welcome__container {
   display: -ms-grid;
@@ -538,7 +553,7 @@ body {
 .welcome__image {
   padding: 0 0 0 24px;
   margin: auto 0;
-  max-width: 204px;
+  max-width: 244px;
 }
 .welcome__image img {
   width: 100%;
@@ -577,10 +592,15 @@ body {
         align-self: center;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 690px) {
   .welcome {
     padding: 26px 0;
-    margin: auto 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .welcome__container {
     -ms-grid-rows: 1fr;
@@ -591,6 +611,14 @@ body {
   .welcome__image {
     padding: 0;
     margin: 0 auto;
+  }
+  .welcome__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .welcome__text {
     text-align: left;
@@ -703,7 +731,7 @@ body {
     display: none;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 690px) {
   .small-card__container {
     margin: 17px;
   }
@@ -725,7 +753,7 @@ body {
   }
 }
 .todays-trips__body {
-  margin: 33px auto 37px;
+  margin: 0 auto;
 }
 .todays-trips__points {
   display: -webkit-box;
@@ -734,12 +762,18 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 .todays-trips__point {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-weight: 400;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-weight: 300;
   line-height: 1.47;
   color: #8798ad;
   margin: 0 23px 0 0;
@@ -790,7 +824,7 @@ body {
     width: 100%;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 690px) {
   .todays-trips__chart-tablet {
     display: none;
   }
@@ -799,7 +833,6 @@ body {
     display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
-    max-width: 272px;
   }
   .todays-trips__chart-mob img {
     width: 100%;
@@ -807,6 +840,7 @@ body {
 }
 .fleet-activity-map {
   height: 520px;
+  margin: 34px 0 0 0;
   background-image: url(../image/home/map.png);
   background-repeat: no-repeat;
   background-position: bottom;
@@ -880,16 +914,19 @@ body {
 }
 
 @media (max-width: 768px) {
+  .fleet-activity-map {
+    margin: 24px 0 0 0;
+  }
   .fleet-activity-map__ways {
     display: none;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 690px) {
   .fleet-activity-map {
     display: none;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 690px) {
   .top-drivers {
     padding: 0 0 26px 0;
   }
@@ -996,6 +1033,7 @@ body {
   background-color: #fff;
 }
 .driver__name {
+  margin: 0 0 -1px 0;
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-column: 3/4;
@@ -1031,7 +1069,7 @@ body {
   color: #8798ad;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 690px) {
   .driver:nth-child(4) {
     display: none;
   }
@@ -1043,7 +1081,7 @@ body {
   }
 }
 .trips-by-type__chart {
-  max-width: 316px;
+  padding: 5px 0 0 0;
   margin: 0 auto;
 }
 .trips-by-type__chart img {
@@ -1062,7 +1100,7 @@ body {
   font-weight: 300;
   letter-spacing: -0.6px;
   color: #2e384d;
-  margin: 0 0 2px 0;
+  margin: 10px 0 2px 0;
 }
 .trips-by-type__text {
   display: -webkit-box;
@@ -1090,7 +1128,7 @@ body {
   color: #8798ad;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 690px) {
   .trips-by-type {
     padding: 0 0 26px 0;
   }
@@ -1153,7 +1191,7 @@ body {
     display: inline;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 690px) {
   .service-reminders {
     display: none;
   }

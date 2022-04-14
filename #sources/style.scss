@@ -28,6 +28,7 @@ body {
     font-family: Rubik, sans-serif;
     background-color: #f4f6fc;
     font-size: 15px;
+    font-weight: 300;
 }
 
 .wrapper {
@@ -35,19 +36,12 @@ body {
     overflow: hidden;
     padding: 0 0 50px 0;
 }
-// @media (max-width: 425px) {
-//     .wrapper {
-//         margin: 0 auto;  
-//         padding: 0 24px;
-//     }
-// }
 
 
 .header {
     display: flex;
     height: 80px;
     background-color: #fff;
-    // margin-bottom: 64px;
     &__menu-icon {
         padding: 33px 31px 30px 31px;
         background-color: #fff;
@@ -58,9 +52,10 @@ body {
     }
     &__container {
         @extend %fsbc;
+        box-sizing: content-box;
         width: 1140px;
         margin: 0 auto;
-        padding: 0 24px
+        padding: 0 24px 0 104px
     }
     &__title {
         display: none;
@@ -108,7 +103,6 @@ body {
 }
 @media (max-width: 768px) {
     .header {
-        margin-bottom: 60px;
         &__logo {
             padding: 0;
             &-hide{
@@ -134,9 +128,8 @@ body {
         }
     }
 }
-@media (max-width: 425px) {
+@media (max-width: 690px) {
     .header {
-        margin-bottom: 30px;
         height: 50px;
         &__menu-icon {
             padding: 19px 24px 10px 24px;
@@ -179,7 +172,7 @@ body {
     z-index: 50;
     top: 0;
     left: -100%;
-    height: 100%;
+    height: 1800px;
     transition: all 0.3s ease 0s;
     overflow: hidden;
     &.active {
@@ -188,17 +181,12 @@ body {
         top: 80px;
         left: 0;
         background: #fff;
-            
-            // .person {display: none;}
-
         &:hover {
             width: 215px;
             .person {
-                // display: block;
+                display: flex;
                 left: 0;}
             .navigation__title {display: inline;}
-
-
         }
     }
     
@@ -209,6 +197,8 @@ body {
     margin:42px 0 28px 0;
 }
 .person {
+    transition: all 0.3s ease 0s;
+    display: none;
     position: absolute;
     left: -200%;
     &__row {
@@ -268,18 +258,26 @@ body {
 
 
 .container {
-    max-width: 1140px;
-    margin: 64px auto 0;
-    padding: 0 24px;
+    box-sizing: content-box;
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 24px 0 104px;
 }
-@media (max-width: 425px) {
+@media (max-width: 768px) {
     .container{
-        max-width: 377px;
+        margin: 60px auto 0;
+
+    }
+}
+@media (max-width: 690px) {
+    .container{
+        margin: 30px auto 0;
+
     }
 }
 
 .section_1 {
-    margin: 0 0 35px 0;
+    margin: 64px 0 35px 0;
     display: grid;
     grid-gap: 24px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -301,28 +299,27 @@ body {
 }
 @media (max-width:768px){
     .section_1 {
+        margin: 60px 0 0 0;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 142px 142px auto;
+        grid-template-rows: 1fr 1fr auto;
         grid-template-areas: 'welcome vehicles'
                              'welcome distance'
                              'trips trips';
     }
 }
-@media (max-width:425px) {
-    .wrapper {
-        .section_1 {
-            display: grid;
-            grid-template-columns: 156px 156px;
-            grid-template-rows: 184px 164px 371px;
-            grid-column-gap: 14px;
-            grid-row-gap: 18px;
-            grid-template-areas: 'welcome welcome'
-                                 'vehicles distance'
-                                 'trips trips';
-                                 
-        }
+@media (max-width:690px) {
+    .section_1 {
+        margin: 30px 0 0 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 256fr 203fr 516fr;
+        grid-column-gap: 14px;
+        grid-row-gap: 18px;
+        grid-template-areas: 'welcome welcome'
+                                'vehicles distance'
+                                'trips trips';
+                                
     }
-    
 }
 
 
@@ -353,7 +350,7 @@ body {
         grid-area: service-reminders;
     }
 }
-@media (max-width:425px) {
+@media (max-width:690px) {
     .section_3 {
         display: flex;
         flex-direction: column;
@@ -390,6 +387,7 @@ body {
 // ---- Welcome to Velocity --------------
 .welcome {
     padding: 45px 0 42px;
+    height: 100%;
     &__container {
         display: grid;
         grid-template: 1fr / 1fr 1fr;
@@ -398,7 +396,7 @@ body {
     &__image {
         padding: 0 0 0 24px;
         margin: auto 0;
-        max-width: 204px;
+        max-width: 244px;
         img{
             width: 100%;
         }
@@ -440,10 +438,12 @@ body {
         }
     }
 }
-@media (max-width: 425px) {
+@media (max-width: 690px) {
     .welcome {
         padding: 26px 0;
-        margin: auto 0;
+
+        display: flex;
+        align-items: center;
         &__container {
             grid-template: 1fr / 1fr 1fr;
             grid-column-gap: 20px;
@@ -453,7 +453,8 @@ body {
             margin: 0 auto;
         }
         &__body {
-
+            display: flex;
+            align-items: center;
         }
         &__text {
             text-align: left;
@@ -556,7 +557,7 @@ body {
         }
     }
 }
-@media (max-width:425px){
+@media (max-width:690px){
     .small-card {
         &__container {
             margin: 17px; 
@@ -582,18 +583,22 @@ body {
 
 // ---- TODAY'S TRIPS --------------
 .todays-trips {
-
     &__container {}
+    &__title {
+        // padding-bottom: 17px;
+    }
     &__body {
-        margin: 33px auto 37px;
+        margin: 0 auto;
     }
     &__points {
         display: flex;
         justify-content: flex-end;
+        align-items: flex-end;
     }
     &__point {
         display: flex;
-        font-weight: 400;
+        align-items: flex-end;
+        font-weight: 300;
         line-height: 1.47;
         color: #8798ad;
         margin: 0 23px 0 0;
@@ -612,6 +617,8 @@ body {
         &.todays-trips__point--purple:before {
             background-color: #8c54ff;
         }
+    }
+    &__point-text {
     }
     &__chart {
         &-desctop {
@@ -649,7 +656,7 @@ body {
         } 
     }
 }
-@media (max-width:425px) {
+@media (max-width:690px) {
     .todays-trips {
         &__chart {
             &-tablet {
@@ -658,7 +665,6 @@ body {
             &-mob {
                 display: flex;
                 margin: 0 auto;
-                max-width: 272px;
                 img {
                     width: 100%;
                 }
@@ -671,6 +677,7 @@ body {
 // ---- Fleet activity map --------------
 .fleet-activity-map {
     height: 520px;
+    margin: 34px 0 0 0;
     background-image: url(../image/home/map.png);
     background-repeat: no-repeat;
     background-position: bottom;
@@ -716,19 +723,21 @@ body {
 }
 @media (max-width:768px){
     .fleet-activity-map {
+        margin: 24px 0 0 0;
         &__ways {
             display: none;
         }
     }
 }
-@media (max-width: 425px) {
+@media (max-width: 690px) {
     .fleet-activity-map {
         display: none;
     }
 }
 
 // ---- Top drivers --------------
-@media (max-width:425px) {
+
+@media (max-width:690px) {
     .top-drivers {
         padding: 0 0 26px 0;
     }
@@ -769,6 +778,7 @@ body {
         }
     line-height: 1.47;    
     &__name {
+        margin: 0 0 -1px 0;
         grid-column: 3/4;
         grid-row: 1/1;
         font-weight: 500;
@@ -793,7 +803,7 @@ body {
         color: #8798ad;
     }
 }
-@media (max-width:425px) {
+@media (max-width:690px) {
     .driver{
         &:nth-child(4) {
             display: none;
@@ -810,7 +820,7 @@ body {
 // ---- Trips by type --------------
 .trips-by-type {
     &__chart {
-        max-width: 316px;
+        padding: 5px 0 0 0;
         margin: 0 auto;
         img {
             width: 100%;
@@ -826,7 +836,7 @@ body {
         font-weight: 300;
         letter-spacing: -0.6px;
         color: #2e384d;
-        margin: 0 0 2px 0;
+        margin: 10px 0 2px 0;
     }
     &__text {
         display: flex;
@@ -851,7 +861,7 @@ body {
     }
 }
 
-@media (max-width:425px) {
+@media (max-width:690px) {
     .trips-by-type {
         padding: 0 0 26px 0;
     }
@@ -917,7 +927,7 @@ body {
         }
     }
 }
-@media (max-width:425px) {
+@media (max-width:690px) {
     .service-reminders {
         display: none;
     }
