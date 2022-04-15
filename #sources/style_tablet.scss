@@ -1,4 +1,4 @@
-@media (max-width: 1040px) {
+@media (max-width: 1100px) {
     .section_3 {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 450px 270px;
@@ -31,12 +31,21 @@
             display: inline;
         }
     }
+    .trips-by-type {
+        &__chart {
+            padding: 5px 0 0 0;
+            max-width: 350px;
+            img {
+                width: 100%;
+            }
+        }
+    }
 }
 
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 849px) {
     .header {
         &__menu-icon {
 
@@ -66,14 +75,33 @@
         }
     }
     .menu {
-        &.active {
-            display: flex;
-        }
-    }
-    .menu-block {
         display: none;
         &.active {
             display: flex;
+            position: absolute;
+            display: block;
+            z-index: 50;
+            height: 100%;
+            transition: all 0.3s ease 0s;
+            overflow: hidden;
+            min-width: 215px;
+            top: 50px;
+            left: 0;
+            background: #fff;
+            .person {
+                display: flex;
+                left: 0;
+            }
+        .navigation__title {display: inline;}
+
+        }
+    }
+    .menu-block {
+        display: block;
+        min-width: 0px;
+        height: 0px;
+        &.active {
+            display: block;
         }
     }
     .container{

@@ -1,4 +1,9 @@
-
+@media (max-width: 695px) {
+    .section_3 {
+    display: flex;
+    flex-direction: column;
+    }
+}
 @media (max-width: 479px) {
     .header {
         height: 50px;
@@ -40,10 +45,7 @@
                              'trips trips';
                                 
     }
-    .section_3 {
-        display: flex;
-        flex-direction: column;
-    }
+
     .welcome {
         padding: 26px 0;
         display: flex;
