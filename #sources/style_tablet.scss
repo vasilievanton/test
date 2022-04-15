@@ -38,6 +38,9 @@
 
 @media (max-width: 768px) {
     .header {
+        &__menu-icon {
+
+        }
         &__logo {
             padding: 0;
             &-hide{
@@ -62,8 +65,16 @@
             height: 32px;
         }
     }
+    .menu {
+        &.active {
+            display: flex;
+        }
+    }
     .menu-block {
         display: none;
+        &.active {
+            display: flex;
+        }
     }
     .container{
         width: 100%;

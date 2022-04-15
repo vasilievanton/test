@@ -75,8 +75,19 @@
     height: 32px;
   }
 
+  .menu.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
   .menu-block {
     display: none;
+  }
+  .menu-block.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 
   .container {
