@@ -1,0 +1,167 @@
+@media (max-width: 1040px) {
+    .section_3 {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 450px 270px;
+        grid-template-areas: 'top-drivers trips-by-type'
+                             'service-reminders service-reminders';
+    }
+    .top-drivers {
+        grid-area: top-drivers;
+    }
+    .trips-by-type {
+        grid-area: trips-by-type;
+    }
+    .service-reminders {
+        grid-area: service-reminders;
+    }
+    .service-reminders {
+        &__item {
+            margin: 0 0 12px 0;
+            &:nth-child(5) {
+                display: none;
+            }
+            &:nth-child(6) {
+                display: none;
+            }
+            &:nth-child(7) {
+                display: none;
+            }
+        }
+        &__options {
+            display: inline;
+        }
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .header {
+        &__logo {
+            padding: 0;
+            &-hide{
+                display: block;
+                width: 46px;
+            }
+        }
+        &__notification {
+            padding: 0 20px 0 0;
+            img {
+                width: 23px;
+            }
+        }
+        &__message {
+            padding: 0 20px 0 0;
+            img {
+                width: 23px;
+            }
+        }
+        &__avatar img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+    .menu-block {
+        display: none;
+    }
+    .container{
+        width: 100%;
+        padding: 0 24px;
+    }
+    .section_1 {
+        margin: 60px 0 0 0;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr auto;
+        grid-template-areas: 'welcome vehicles'
+                             'welcome distance'
+                             'trips trips';
+    }
+    .welcome {
+        &__container {
+        grid-template: 2fr 1fr / 1fr;
+        grid-row-gap: 24px;
+        }
+        &__image {
+            padding: 0;
+            margin: 0 auto;
+        }
+        &__title {
+            display: none;
+        }
+        &__body {
+
+        }
+        &__text {
+            text-align: center;
+            align-self: center;
+        }
+    }
+    .small-card {
+        &__container {
+            padding: 0;
+            margin: 27px;
+            display: flex;
+            flex-direction: column-reverse;    
+        }
+        &__check{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin: 0 16px 0 0;
+            background-color: rgba(0, 193, 212, 0.15);
+            &-purple {
+                background-color: rgba(140, 84, 255, 0.15);
+            }
+        }
+        &__title {
+            margin: 0 0 0 56px;
+            text-transform: none;
+            font-size: 15px;
+            letter-spacing: 0;
+        }
+        &__num {
+            font-size: 48px;
+            font-weight: 300;
+            letter-spacing: -0.6px;
+            margin: 0 0 12px 0;
+            color: #2e384d;    
+        }
+        &__index{
+            display: none;            
+        }
+        &__percent {
+            display: none;            
+        }
+    }
+    .todays-trips {
+        &__body {
+            margin: 3px 0 32px 0;
+        }
+        &__chart {
+            &-desctop {
+                display: none;
+            }
+            &-tablet {
+                display: flex;
+                margin: 0 auto;
+                max-width: 672px;
+                img {
+                    width: 100%;
+                }
+            }
+        } 
+    }
+    .fleet-activity-map {
+        margin: 24px 0 0 0;
+        &__ways {
+            display: none;
+        }
+    }
+}
+
+
+

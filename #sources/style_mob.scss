@@ -1,0 +1,131 @@
+
+@media (max-width: 479px) {
+    .header {
+        height: 50px;
+        &__menu-icon {
+            padding: 19px 24px 10px 24px;
+        }
+        &__title {
+            display: inline;
+            font-size: 15px;
+            font-weight: 500;
+            text-align: center;
+            color: #2e384d;
+        }
+        &__logo {
+            display: none;
+            &-hide {
+                width: 0px;
+            }
+        }
+        &__notification {
+            padding: 0 0 0 47px;
+            img {
+                width: 19px;
+            }
+        }
+        &__message, &__avatar {
+            display: none;
+        }
+    }
+    .container{}
+    .section_1 {
+        margin: 30px 0 0 0;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 256fr 203fr 516fr;
+        grid-column-gap: 14px;
+        grid-row-gap: 18px;
+        grid-template-areas: 'welcome welcome'
+                             'vehicles distance'
+                             'trips trips';
+                                
+    }
+    .section_3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .welcome {
+        padding: 26px 0;
+        display: flex;
+        align-items: center;
+        &__container {
+            grid-template: 1fr / 1fr 1fr;
+            grid-column-gap: 20px;
+        }
+        &__image {
+            padding: 0;
+            margin: 0 auto;
+        }
+        &__body {
+            display: flex;
+            align-items: center;
+        }
+        &__text {
+            text-align: left;
+            font-size: 15px;
+            line-height: 1.47;
+            letter-spacing: normal;
+            align-self: center;
+        }
+    }
+    .small-card {
+        &__container {
+            margin: 17px; 
+        }
+        &__body {
+            display: block;
+        }
+        &__check{
+            margin: 0 0 17px 0;
+        }
+        &__title {
+            margin: 0;
+        }
+        &__num {
+            font-size: 32px;
+            font-weight: 300;
+            margin: 0 0 12px 0;
+        }
+    }
+    .todays-trips {
+        &__chart {
+            &-tablet {
+                display: none;
+            }
+            &-mob {
+                display: flex;
+                margin: 0 auto;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .fleet-activity-map {
+        display: none;
+    }
+    .top-drivers {
+        padding: 0 0 26px 0;
+    }
+    .driver{
+        &:nth-child(4) {
+            display: none;
+        }
+        &:nth-child(5) {
+            display: none;
+        }
+        &:nth-child(6) {
+            display: none;
+        }
+    }
+    .trips-by-type {
+        padding: 0 0 26px 0;
+    }
+    .service-reminders {
+        display: none;
+    }
+}
+
+
+
+
