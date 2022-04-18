@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="22px" viewBox="0 0 28 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mail</title>
+    <defs>
+        <path d="M2.03174652,19.3693197 L2.03174652,2.84332631 L13.3380244,11.9692598 L24.6349226,2.84332631 L24.6349226,19.3693197 L2.03174652,19.3693197 Z M22.8571429,1.9866037 L13.3968166,9.43633915 L3.80952381,1.9866037 L22.8571429,1.9866037 Z M24.2424242,0 L2.42424242,0 C1.08727273,0 0,1.06311111 0,2.37037037 L0,18.962963 C0,20.2702222 1.08727273,21.3333333 2.42424242,21.3333333 L24.2424242,21.3333333 C25.5793939,21.3333333 26.6666667,20.2702222 26.6666667,18.962963 L26.6666667,2.37037037 C26.6666667,1.06311111 25.5793939,0 24.2424242,0 L24.2424242,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-–-Home" transform="translate(-1242.000000, -31.000000)">
+            <g id="Component/Navigation/Top-Bar" transform="translate(80.000000, 0.000000)">
+                <g id="Group" transform="translate(1110.000000, 20.000000)">
+                    <g id="icon-messages" transform="translate(52.666667, 3.000000)">
+                        <g id="Element/Icon/Mail" transform="translate(0.000000, 8.333333)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mail" fill="#BFC5D2" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
