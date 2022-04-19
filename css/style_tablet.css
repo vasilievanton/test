@@ -69,11 +69,23 @@
   .header__notification {
     padding: 0 20px 0 0;
   }
+  .header__notification span {
+    width: 7px;
+    height: 7px;
+    left: 13px;
+    top: -1px;
+  }
   .header__notification img {
     width: 23px;
   }
   .header__message {
     padding: 0 20px 0 0;
+  }
+  .header__message span {
+    width: 7px;
+    height: 7px;
+    left: 17px;
+    top: -3px;
   }
   .header__message img {
     width: 23px;
@@ -86,19 +98,24 @@
   .menu {
     display: none;
   }
+  .menu-block {
+    display: block;
+    min-width: 0px;
+    z-index: 1;
+  }
   .menu.active {
+    height: 500px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     position: absolute;
     display: block;
     z-index: 50;
-    height: 100%;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     overflow: hidden;
-    min-width: 215px;
-    top: 50px;
+    width: 215px;
+    top: 79px;
     left: 0;
     background: #fff;
   }
@@ -109,16 +126,11 @@
     left: 0;
   }
   .menu.active .navigation__title {
-    display: inline;
+    display: block;
   }
 
-  .menu-block {
-    display: block;
-    min-width: 0px;
-    height: 0px;
-  }
-  .menu-block.active {
-    display: block;
+  .sidebar {
+    display: none;
   }
 
   .container {
@@ -186,7 +198,7 @@
     background-color: rgba(140, 84, 255, 0.15);
   }
   .small-card__title {
-    margin: 0 0 0 56px;
+    margin: 0 0 0 72px;
     text-transform: none;
     font-size: 15px;
     letter-spacing: 0;

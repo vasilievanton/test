@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1039px" height="249px" viewBox="0 0 1039 249" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Chart Figure</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#2E5BFF" offset="0%"></stop>
+            <stop stop-color="#2E5BFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#8C54FF" offset="0%"></stop>
+            <stop stop-color="#8C54FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-–-Analytics" transform="translate(-267.000000, -332.000000)">
+            <g id="Module/Line-Chart-Large" transform="translate(190.000000, 192.000000)">
+                <g id="Chart-Figure" transform="translate(77.000000, 140.000000)">
+                    <g id="Blue" transform="translate(0.042843, 0.000000)">
+                        <polyline id="Path-5" fill-opacity="0.100000001" fill="url(#linearGradient-1)" points="4 174.5 63.6319377 142 125.285297 161.5 186.433301 103.5 246.065239 31.5 307.718598 47.5 366.84518 97 428.498539 128 489.141188 95 547.762415 82.5 609.92113 24 670.563778 69.5 732.217137 142 791.849075 165 854.00779 99.25 913.134372 3.5 972.76631 47.5 1034.41967 54.5 1034.41967 248.016149 4 248.016149"></polyline>
+                        <polyline id="Path-5" stroke="#2E5BFF" stroke-width="2" points="4 174.5 63.6319377 142 125.285297 161.5 186.433301 103.5 246.065239 31.5 307.718598 47.5 366.84518 97 428.498539 128 489.141188 95 547.762415 82.5 609.92113 24 670.563778 69.5 732.217137 142 791.849075 165 854.00779 99.25 913.134372 3.5 972.76631 47.5 1034.41967 54.5"></polyline>
+                        <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="4" cy="174" r="3"></circle>
+                        <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="63.6319377" cy="143" r="3"></circle>
+                        <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="125.285297" cy="161" r="3"></circle>
+                        <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="246.570594" cy="32" r="3"></circle>
+                        <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="184.917235" cy="105" r="3"></circle>
+                        <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="307.213242" cy="47" r="3"></circle>
+                        <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="366.84518" cy="97" r="3"></circle>
+                        <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="429.50925" cy="128" r="3"></circle>
+                        <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="489.141188" cy="95" r="3"></circle>
+                        <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="547.762415" cy="82" r="3"></circle>
+                        <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="610.426485" cy="25" r="3"></circle>
+                        <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="671.069133" cy="70" r="3"></circle>
+                        <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="730.701071" cy="141" r="3"></circle>
+                        <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="791.34372" cy="164" r="3"></circle>
+                        <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="854.00779" cy="99" r="3"></circle>
+                        <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="913.639727" cy="4" r="3"></circle>
+                        <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="972.260954" cy="47" r="3"></circle>
+                        <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="1033.91431" cy="55" r="3"></circle>
+                    </g>
+                    <g id="Purple" transform="translate(0.000000, 39.000000)">
+                        <polyline id="Path-6" fill="url(#linearGradient-2)" opacity="0.100000001" points="4.54815175 170.5 64.1794747 164.5 123.810798 141 183.947471 148.5 246.105545 105.5 305.736868 89 368.400292 143.5 426.515564 129.75 488.673638 153.5 549.821012 85.5 609.957685 38 671.105058 45.5 731.241732 187.5 791.883755 145.5 852.525778 127.5 913.673152 3.5 974.315175 81.5 1035.46255 34 1035.46255 207.5 4.54815175 207.5"></polyline>
+                        <polyline id="Path-6" stroke="#8C54FF" stroke-width="2" points="4.54815175 170.5 64.1794747 164.5 123.810798 141 183.947471 148.5 246.105545 105.5 305.736868 89 368.400292 143.5 426.515564 129.75 488.673638 153.5 549.821012 85.5 609.957685 38 671.105058 45.5 731.241732 187.5 791.883755 145.5 852.525778 127.5 913.673152 3.5 974.315175 81.5 1035.46255 34"></polyline>
+                        <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="1034.9572" cy="34" r="3"></circle>
+                        <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="974.315175" cy="81" r="3"></circle>
+                        <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="913.673152" cy="4" r="3"></circle>
+                        <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="853.031128" cy="127" r="3"></circle>
+                        <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="792.389105" cy="146" r="3"></circle>
+                        <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="731.747082" cy="187" r="3"></circle>
+                        <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="671.105058" cy="47" r="3"></circle>
+                        <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="610.463035" cy="38" r="3"></circle>
+                        <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="489.178988" cy="153" r="3"></circle>
+                        <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="367.894942" cy="143" r="3"></circle>
+                        <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="427.526265" cy="130" r="3"></circle>
+                        <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="305.231518" cy="90" r="3"></circle>
+                        <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="246.610895" cy="105" r="3"></circle>
+                        <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="183.947471" cy="148" r="3"></circle>
+                        <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="124.316148" cy="141" r="3"></circle>
+                        <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="63.6741245" cy="164" r="3"></circle>
+                        <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="4.04280156" cy="171" r="3"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

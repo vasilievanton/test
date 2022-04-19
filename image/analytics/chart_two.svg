@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="672px" height="280px" viewBox="0 0 672 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Grid</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="2-–-Analytics" transform="translate(-634.000000, -1020.000000)">
+            <g id="Module/Bar-Chart-Medium" transform="translate(578.000000, 900.000000)">
+                <g id="Grid" transform="translate(56.500000, 120.000000)">
+                    <g id="vertical" opacity="0.5" transform="translate(69.500000, 1.750754)" stroke="#8097B1" stroke-dasharray="2,2,2" stroke-width="0.5">
+                        <line x1="1.04761905" y1="2.88351161e-14" x2="1.04761905" y2="277.57262" id="Line-1" opacity="0.606809701"></line>
+                        <line x1="72.2857143" y1="2.88351161e-14" x2="72.2857143" y2="277.57262" id="Line-2" opacity="0.606809701"></line>
+                        <line x1="143.52381" y1="2.88351161e-14" x2="143.52381" y2="277.57262" id="Line-3" opacity="0.606809701"></line>
+                        <line x1="214.761905" y1="9.9076706e-06" x2="214.761905" y2="277.57262" id="Line-4" opacity="0.606809701"></line>
+                        <line x1="286" y1="2.88351161e-14" x2="286" y2="277.57262" id="Line-1" opacity="0.606809701"></line>
+                        <line x1="357.238095" y1="2.88351161e-14" x2="357.238095" y2="277.57262" id="Line-2" opacity="0.606809701"></line>
+                        <line x1="428.47619" y1="2.88351161e-14" x2="428.47619" y2="277.57262" id="Line-3" opacity="0.606809701"></line>
+                        <line x1="499.714286" y1="9.9076706e-06" x2="499.714286" y2="277.57262" id="Line-4" opacity="0.606809701"></line>
+                        <line x1="570.952381" y1="2.88351161e-14" x2="570.952381" y2="277.57262" id="Line-1" opacity="0.606809701"></line>
+                    </g>
+                    <g id="horizontal" opacity="0.5" transform="translate(0.500000, 0.000000)" stroke="#8097B1" stroke-dasharray="2,2,2,2" stroke-width="0.5">
+                        <line x1="1.39087953" y1="231.240175" x2="670.006356" y2="231.240175" id="Line-3" opacity="0.756413246"></line>
+                        <line x1="0.243423921" y1="185.650655" x2="668.8589" y2="185.650655" id="Line-4" opacity="0.756413246"></line>
+                        <line x1="1.39087953" y1="139.048035" x2="670.006356" y2="139.048035" id="Line-5" opacity="0.756413246"></line>
+                        <line x1="0.243423921" y1="92.4454148" x2="668.8589" y2="92.4454148" id="Line-6" opacity="0.756413246"></line>
+                        <line x1="1.39087953" y1="46.8558952" x2="670.006356" y2="46.8558952" id="Line-5" opacity="0.756413246"></line>
+                        <line x1="0.243423921" y1="0.253275109" x2="668.859002" y2="0.253275109" id="Line-6" opacity="0.756413246"></line>
+                    </g>
+                    <line x1="0.5" y1="1" x2="0.5" y2="279" id="Line" stroke="#E0E7FF"></line>
+                    <line x1="0.5" y1="279.5" x2="671" y2="279.5" id="Line" stroke="#E0E7FF"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

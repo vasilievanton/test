@@ -1,10 +1,15 @@
 @media (max-width: 695px) {
     .section_3 {
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
 }
 @media (max-width: 479px) {
+    .menu {
+        &.active {
+            top: 49px;
+        }
+    }
     .header {
         height: 50px;
         &__menu-icon {
@@ -25,25 +30,31 @@
         }
         &__notification {
             padding: 0 0 0 47px;
+            span {
+                left: 57px;
+                top: 0px;
+            }
             img {
                 width: 19px;
             }
         }
-        &__message, &__avatar {
+        &__message,
+        &__avatar {
             display: none;
         }
     }
-    .container{}
+    .container {
+    }
     .section_1 {
         margin: 30px 0 0 0;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 256fr 203fr 516fr;
         grid-column-gap: 14px;
         grid-row-gap: 18px;
-        grid-template-areas: 'welcome welcome'
-                             'vehicles distance'
-                             'trips trips';
-                                
+        grid-template-areas:
+            'welcome welcome'
+            'vehicles distance'
+            'trips trips';
     }
 
     .welcome {
@@ -72,12 +83,12 @@
     }
     .small-card {
         &__container {
-            margin: 17px; 
+            margin: 17px;
         }
         &__body {
             display: block;
         }
-        &__check{
+        &__check {
             margin: 0 0 17px 0;
         }
         &__title {
@@ -109,7 +120,7 @@
     .top-drivers {
         padding: 0 0 26px 0;
     }
-    .driver{
+    .driver {
         &:nth-child(4) {
             display: none;
         }
@@ -127,7 +138,3 @@
         display: none;
     }
 }
-
-
-
-

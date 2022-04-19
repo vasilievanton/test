@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="544px" height="134px" viewBox="0 0 544 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Dot Chart </title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-–-Analytics" transform="translate(-698.000000, -1067.000000)" stroke="#F7C137" stroke-width="2">
+            <g id="Module/Bar-Chart-Medium" transform="translate(578.000000, 900.000000)">
+                <g id="Chart-Figure" transform="translate(109.000000, 157.000000)">
+                    <g id="Dot-Chart-" transform="translate(11.000000, 10.000000)">
+                        <polyline id="Path-4" points="6 34 97 75.5 188.5 45 280.5 34 371 96 464.5 131 540.5 3"></polyline>
+                        <circle id="Oval" fill="#FFFFFF" cx="4" cy="33" r="3"></circle>
+                        <circle id="Oval" fill="#FFFFFF" cx="98" cy="76" r="3"></circle>
+                        <circle id="Oval" fill="#FFFFFF" cx="189" cy="45" r="3"></circle>
+                        <circle id="Oval" fill="#FFFFFF" cx="280" cy="35" r="3"></circle>
+                        <circle id="Oval" fill="#FFFFFF" cx="372" cy="96" r="3"></circle>
+                        <circle id="Oval" fill="#FFFFFF" cx="464" cy="130" r="3"></circle>
+                        <circle id="Oval" fill="#FFFFFF" cx="540" cy="4" r="3"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

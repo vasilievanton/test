@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1035px" height="276px" viewBox="0 0 1035 276" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Grid</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="2-–-Analytics" transform="translate(-267.000000, -304.000000)">
+            <g id="Module/Line-Chart-Large" transform="translate(190.000000, 192.000000)">
+                <g id="Grid" transform="translate(77.000000, 112.000000)">
+                    <g id="vertical" opacity="0.5" transform="translate(60.763209, 1.000000)" stroke="#8097B1" stroke-dasharray="2,2,2" stroke-width="0.5">
+                        <line x1="1.01272016" y1="0.739990234" x2="1.01272016" y2="274.333074" id="Line-1" opacity="0.606809701"></line>
+                        <line x1="61.7759295" y1="0.739990234" x2="61.7759295" y2="274.333074" id="Line-2" opacity="0.606809701"></line>
+                        <line x1="122.539139" y1="0.739990234" x2="122.539139" y2="274.333074" id="Line-3" opacity="0.606809701"></line>
+                        <line x1="183.302348" y1="0.739990234" x2="183.302348" y2="274.333074" id="Line-3" opacity="0.606809701"></line>
+                        <line x1="244.065558" y1="0.739990234" x2="244.065558" y2="274.333074" id="Line-3" opacity="0.606809701"></line>
+                        <line x1="304.828767" y1="0.739990234" x2="304.828767" y2="274.333074" id="Line-3" opacity="0.606809701"></line>
+                        <line x1="365.591977" y1="0.739990234" x2="365.591977" y2="274.333074" id="Line-3" opacity="0.606809701"></line>
+                        <line x1="426.355186" y1="0.74" x2="426.355186" y2="274.333074" id="Line-4" opacity="0.606809701"></line>
+                        <line x1="487.118395" y1="0.739990234" x2="487.118395" y2="274.333074" id="Line-1" opacity="0.606809701"></line>
+                        <line x1="547.881605" y1="0.739990234" x2="547.881605" y2="274.333074" id="Line-2" opacity="0.606809701"></line>
+                        <line x1="608.644814" y1="0.739990234" x2="608.644814" y2="274.333074" id="Line-3" opacity="0.606809701"></line>
+                        <line x1="669.408023" y1="0.739990234" x2="669.408023" y2="274.333074" id="Line-2" opacity="0.606809701"></line>
+                        <line x1="730.171233" y1="0.739990234" x2="730.171233" y2="274.333074" id="Line-3" opacity="0.606809701"></line>
+                        <line x1="790.934442" y1="0.74" x2="790.934442" y2="274.333074" id="Line-4" opacity="0.606809701"></line>
+                        <line x1="851.697652" y1="0.739990234" x2="851.697652" y2="274.333074" id="Line-1" opacity="0.606809701"></line>
+                        <line x1="912.460861" y1="0.739990234" x2="912.460861" y2="274.333074" id="Line-2" opacity="0.606809701"></line>
+                        <line x1="973.22407" y1="0.739990234" x2="973.22407" y2="274.333074" id="Line-3" opacity="0.606809701"></line>
+                    </g>
+                    <g id="horizontal" opacity="0.5" transform="translate(2.025440, 0.000000)" stroke="#8097B1" stroke-dasharray="2,2,2,2" stroke-width="0.5">
+                        <line x1="2.00345793" y1="228.25" x2="1032.18275" y2="228.25" id="Line-3" opacity="0.756413246"></line>
+                        <line x1="0.235498539" y1="183.25" x2="1030.41479" y2="183.25" id="Line-4" opacity="0.756413246"></line>
+                        <line x1="2.00345793" y1="137.25" x2="1032.18275" y2="137.25" id="Line-5" opacity="0.756413246"></line>
+                        <line x1="0.235498539" y1="91.25" x2="1030.41479" y2="91.25" id="Line-6" opacity="0.756413246"></line>
+                        <line x1="2.00345793" y1="46.25" x2="1032.18275" y2="46.25" id="Line-5" opacity="0.756413246"></line>
+                        <line x1="0.235498539" y1="1.25" x2="1030.41495" y2="1.25" id="Line-6" opacity="0.756413246"></line>
+                    </g>
+                    <line x1="1.51908023" y1="1.09002686" x2="1.51908023" y2="274.590027" id="Line" stroke="#E0E7FF"></line>
+                    <line x1="2.26093885" y1="274.5" x2="1032.44023" y2="274.5" id="Line" stroke="#E0E7FF"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

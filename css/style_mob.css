@@ -10,6 +10,10 @@
   }
 }
 @media (max-width: 479px) {
+  .menu.active {
+    top: 49px;
+  }
+
   .header {
     height: 50px;
   }
@@ -31,6 +35,10 @@
   }
   .header__notification {
     padding: 0 0 0 47px;
+  }
+  .header__notification span {
+    left: 57px;
+    top: 0px;
   }
   .header__notification img {
     width: 19px;
