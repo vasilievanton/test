@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
 @import 'style_null.scss';
+
+$tablet: 768px;
+
 body {
     font-family: Rubik, sans-serif;
     background-color: #f4f6fc;
@@ -38,7 +41,7 @@ body {
     margin: 0 auto;
     padding: 0 24px;
 }
-@media (max-width: 768px) {
+@media (max-width: $tablet) {
     .container {
         width: 100%;
         padding: 0 24px;
@@ -156,7 +159,7 @@ body {
         }
     }
 }
-@media (max-width: 768px) {
+@media (max-width: $tablet) {
     .header {
         &__menu-icon {
         }
@@ -288,7 +291,7 @@ body {
         color: #b0bac9;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .menu {
         display: none;
         &-block {
@@ -409,7 +412,7 @@ body {
 }
 //    tablet     REVENUE (SECTION 1) ------------------
 
-@media (max-width: 768px) {
+@media (max-width: $tablet) {
     .revenue {
         &__title {
             margin: 0;
@@ -483,7 +486,8 @@ body {
 }
 
 //     tablet      --- SECTION 2 ------------------
-@media (max-width: 768px) {
+
+@media (max-width: 1180px) {
     .section_2 {
         margin: 0 0 24px 0;
         &-container {
@@ -503,11 +507,14 @@ body {
         &__check {
             margin: 0;
         }
+        &__body {
+            margin: 0 0 0 16px;
+        }
         &__num {
-            margin: 0 0 3px 16px;
+            margin: 0 0 3px 0;
         }
         &__text {
-            margin: 0 0 0 66px;
+            margin: 0;
         }
     }
 }
@@ -518,7 +525,7 @@ body {
         display: flex;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
     .section_3 {
         &__row {
             display: block;
@@ -571,7 +578,7 @@ body {
 }
 // --- SECTION 3  LATEST TRIPS tablet ------------------
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
     .latest_trips {
         margin: 0 0 24px 0;
         &__container {
@@ -750,7 +757,7 @@ body {
 
 // --- SECTION 3  TRIPS BY WEEKDAY tablet ------------------
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
     .trips_by_weekday {
         &__container {
             padding: 32px 24px 30px;
@@ -771,7 +778,8 @@ body {
         &__tablet {
             display: block;
         }
-        margin: 0;
+        margin: 0 auto;
+        max-width: 800px;
         img {
             width: 100%;
         }

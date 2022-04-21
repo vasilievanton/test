@@ -399,7 +399,7 @@ body {
   color: #b0bac9;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .menu {
     display: none;
   }
@@ -631,7 +631,7 @@ body {
   color: #8798ad;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1180px) {
   .section_2 {
     margin: 0 0 24px 0;
   }
@@ -672,11 +672,14 @@ body {
   .small-card__check {
     margin: 0;
   }
+  .small-card__body {
+    margin: 0 0 0 16px;
+  }
   .small-card__num {
-    margin: 0 0 3px 16px;
+    margin: 0 0 3px 0;
   }
   .small-card__text {
-    margin: 0 0 0 66px;
+    margin: 0;
   }
 }
 .section_3__row {
@@ -685,7 +688,7 @@ body {
   display: flex;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
   .section_3__row {
     display: block;
   }
@@ -734,7 +737,7 @@ body {
   text-align: right;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
   .latest_trips {
     margin: 0 0 24px 0;
   }
@@ -941,7 +944,7 @@ body {
   padding: 0 6px 0 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
   .trips_by_weekday__container {
     padding: 32px 24px 30px;
   }
@@ -953,7 +956,8 @@ body {
   }
 
   .chart_two {
-    margin: 0;
+    margin: 0 auto;
+    max-width: 800px;
   }
   .chart_two__desctop {
     display: none;
