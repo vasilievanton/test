@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="665px" height="311px" viewBox="0 0 665 311" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#2E5BFF" offset="0%"></stop>
+            <stop stop-color="#2E5BFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#8C54FF" offset="0%"></stop>
+            <stop stop-color="#8C54FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Tablet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-–-Analytics" transform="translate(-58.000000, -236.000000)">
+            <g id="Module/Card/Line-Chart-#2-Tablet" transform="translate(30.000000, 140.000000)">
+                <g id="Chart" transform="translate(28.000000, 71.000000)">
+                    <g id="Group-2" transform="translate(0.000000, 25.000000)">
+                        <g id="Grid" transform="translate(45.000000, 6.000000)" stroke-linecap="square">
+                            <g id="vertical" opacity="0.5" transform="translate(60.000000, 1.000000)" stroke="#8097B1" stroke-dasharray="2,2,2" stroke-width="0.5">
+                                <line x1="1.02398524" y1="0.739990234" x2="1.02398524" y2="274.333074" id="Line-1" opacity="0.606809701"></line>
+                                <line x1="62.4630996" y1="0.739990234" x2="62.4630996" y2="274.333074" id="Line-2" opacity="0.606809701"></line>
+                                <line x1="123.902214" y1="0.739990234" x2="123.902214" y2="274.333074" id="Line-3" opacity="0.606809701"></line>
+                                <line x1="185.341328" y1="0.739990234" x2="185.341328" y2="274.333074" id="Line-3" opacity="0.606809701"></line>
+                                <line x1="246.780443" y1="0.739990234" x2="246.780443" y2="274.333074" id="Line-3" opacity="0.606809701"></line>
+                                <line x1="308.219557" y1="0.739990234" x2="308.219557" y2="274.333074" id="Line-3" opacity="0.606809701"></line>
+                                <line x1="369.658672" y1="0.739990234" x2="369.658672" y2="274.333074" id="Line-3" opacity="0.606809701"></line>
+                                <line x1="431.097786" y1="0.74" x2="431.097786" y2="274.333074" id="Line-4" opacity="0.606809701"></line>
+                                <line x1="492.5369" y1="0.739990234" x2="492.5369" y2="274.333074" id="Line-1" opacity="0.606809701"></line>
+                                <line x1="553.976015" y1="0.739990234" x2="553.976015" y2="274.333074" id="Line-2" opacity="0.606809701"></line>
+                            </g>
+                            <g id="horizontal" opacity="0.5" transform="translate(1.000000, 0.000000)" stroke="#8097B1" stroke-dasharray="2,2,2,2" stroke-width="0.5">
+                                <line x1="1.28845099" y1="228.25" x2="613.399418" y2="228.25" id="Line-3" opacity="0.756413246"></line>
+                                <line x1="0.237966534" y1="183.25" x2="612.348934" y2="183.25" id="Line-4" opacity="0.756413246"></line>
+                                <line x1="1.28845099" y1="137.25" x2="613.399418" y2="137.25" id="Line-5" opacity="0.756413246"></line>
+                                <line x1="0.237966534" y1="91.25" x2="612.348934" y2="91.25" id="Line-6" opacity="0.756413246"></line>
+                                <line x1="1.28845099" y1="46.25" x2="613.399418" y2="46.25" id="Line-5" opacity="0.756413246"></line>
+                                <line x1="0.237966534" y1="0.25" x2="612.349027" y2="0.25" id="Line-6" opacity="0.756413246"></line>
+                            </g>
+                            <line x1="1" y1="1" x2="1" y2="274" id="Line" stroke="#E0E7FF"></line>
+                            <line x1="1" y1="274.5" x2="613" y2="274.5" id="Line" stroke="#E0E7FF"></line>
+                        </g>
+                        <g id="Y-Axis" fill="#B0BAC9" font-family="Rubik-Regular, Rubik" font-size="15" font-weight="normal" line-spacing="22">
+                            <text id="$5k">
+                                <tspan x="10.2" y="239">$5k</tspan>
+                            </text>
+                            <text id="0">
+                                <tspan x="26.505" y="284">0</tspan>
+                            </text>
+                            <text id="$10k">
+                                <tspan x="3.21" y="194">$10k</tspan>
+                            </text>
+                            <text id="$15k">
+                                <tspan x="3.825" y="149">$15k</tspan>
+                            </text>
+                            <text id="$20k">
+                                <tspan x="0.825" y="104">$20k</tspan>
+                            </text>
+                            <text id="$25k">
+                                <tspan x="1.44" y="59">$25k</tspan>
+                            </text>
+                            <text id="$30k">
+                                <tspan x="0.615" y="14">$30k</tspan>
+                            </text>
+                        </g>
+                        <g id="X-Axis-" transform="translate(73.000000, 289.000000)" fill="#B0BAC9" font-family="Rubik-Regular, Rubik" font-size="15" font-weight="normal" line-spacing="22">
+                            <text id="Mar-1">
+                                <tspan x="0.075" y="14">Mar 1</tspan>
+                            </text>
+                            <text id="Mar-8">
+                                <tspan x="54.0075" y="14">Mar 8</tspan>
+                            </text>
+                            <text id="Mar-15">
+                                <tspan x="111.135" y="14">Mar 15</tspan>
+                            </text>
+                            <text id="Mar-22">
+                                <tspan x="174.0025" y="14">Mar 22</tspan>
+                            </text>
+                            <text id="Mar-29">
+                                <tspan x="239.45" y="14">Mar 29</tspan>
+                            </text>
+                            <text id="Apr-5">
+                                <tspan x="306.43" y="14">Apr 5</tspan>
+                            </text>
+                            <text id="Apr-12">
+                                <tspan x="362.3025" y="14">Apr 12</tspan>
+                            </text>
+                            <text id="Apr-19">
+                                <tspan x="424.25" y="14">Apr 19</tspan>
+                            </text>
+                            <text id="Apr-26">
+                                <tspan x="486.49" y="14">Apr 26</tspan>
+                            </text>
+                            <text id="May-2">
+                                <tspan x="551.085" y="14">May 2</tspan>
+                            </text>
+                        </g>
+                        <g id="Chart-Figure" transform="translate(41.098684, 55.000000)">
+                            <g id="Blue">
+                                <polygon id="Path-5" fill-opacity="0.100000001" fill="url(#linearGradient-1)" points="4 153.5 64.4555921 121 126.960526 140.5 188.953125 82.5 249.408717 10.5 311.913651 26.5 371.856908 76 434.361842 107 495.842105 74 555.273026 61.5 618.290296 3 618.290296 226 4.50698981 226"></polygon>
+                                <polyline id="Path-5" stroke="#2E5BFF" stroke-width="2" points="4 153.5 64.4555921 121 126.960526 140.5 188.953125 82.5 249.408717 10.5 311.913651 26.5 371.856908 76 434.361842 107 495.842105 74 555.273026 61.5 618.290296 3"></polyline>
+                                <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="4" cy="153" r="3"></circle>
+                                <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="64.4555921" cy="122" r="3"></circle>
+                                <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="126.960526" cy="140" r="3"></circle>
+                                <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="249.921053" cy="11" r="3"></circle>
+                                <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="187.416118" cy="84" r="3"></circle>
+                                <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="311.401316" cy="26" r="3"></circle>
+                                <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="371.856908" cy="76" r="3"></circle>
+                                <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="435.386513" cy="107" r="3"></circle>
+                                <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="495.842105" cy="74" r="3"></circle>
+                                <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="555.273026" cy="61" r="3"></circle>
+                                <circle id="Oval" stroke="#2E5BFF" stroke-width="2" fill="#FFFFFF" cx="618.802632" cy="4" r="3"></circle>
+                            </g>
+                            <g id="Purple" transform="translate(0.000000, 52.000000)">
+                                <polygon id="Path-6" fill="url(#linearGradient-2)" opacity="0.100000001" points="4.51233553 136.5 64.9679276 130.5 125.42352 107 186.391447 114.5 249.408717 71.5 309.864309 55 373.393914 109.5 432.3125 95.75 495.32977 119.5 557.322368 51.5 618.290296 4 618.290296 174.506598 4.51233553 174.506598"></polygon>
+                                <polyline id="Path-6" stroke="#8C54FF" stroke-width="2" points="4.51233553 136.5 64.9679276 130.5 125.42352 107 186.391447 114.5 249.408717 71.5 309.864309 55 373.393914 109.5 432.3125 95.75 495.32977 119.5 557.322368 51.5 618.290296 4"></polyline>
+                                <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="618.802632" cy="4" r="3"></circle>
+                                <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="495.842105" cy="119" r="3"></circle>
+                                <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="372.881579" cy="109" r="3"></circle>
+                                <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="433.337171" cy="96" r="3"></circle>
+                                <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="309.351974" cy="56" r="3"></circle>
+                                <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="249.921053" cy="71" r="3"></circle>
+                                <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="186.391447" cy="114" r="3"></circle>
+                                <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="125.935855" cy="107" r="3"></circle>
+                                <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="64.4555921" cy="130" r="3"></circle>
+                                <circle id="Oval" stroke="#8C54FF" stroke-width="2" fill="#FFFFFF" cx="4" cy="137" r="3"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

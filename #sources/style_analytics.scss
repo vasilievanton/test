@@ -1,85 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
-
-/*----------Обнуление----------------------------------------------------------*/
-* {
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
-*,
-*:before,
-*:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-:focus,
-:active {
-    outline: none;
-}
-a:focus,
-a:active {
-    outline: none;
-}
-nav,
-footer,
-header,
-aside {
-    display: block;
-}
-html,
-body {
-    height: 100%;
-    width: 100%;
-    font-size: 100%;
-    line-height: 1;
-    -ms-text-size-adjust: 100%;
-}
-input,
-button,
-textarea {
-    font-family: inherit;
-}
-input::-ms-clear {
-    display: none;
-}
-button {
-    cursor: pointer;
-}
-button::-moz-focus-inner {
-    padding: 0;
-    border: 0;
-}
-a,
-a:visited {
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: none;
-}
-ul li {
-    list-style: none;
-}
-image {
-    vertical-align: top;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-size: inherit;
-    font-weight: inherit;
-}
-/*---------------------------------------------------------------------------*/
-
-%fsbc {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
+@import 'style_null.scss';
 body {
     font-family: Rubik, sans-serif;
     background-color: #f4f6fc;
@@ -94,127 +14,61 @@ body {
 }
 .content {
     display: flex;
-}
-
-.sidebar {
-    position: absolute;
-    background-color: #fff;
-    width: 280px;
-    padding: 0 15px 50px;
-    right: 0;
-    z-index: 100;
-    transition: all 0.5s ease 0.1s;
-
-    &.disable {
-        right: -275px;
-    }
-}
-
-.weather {
-    border-bottom: 1px solid #e4e8f0;
-    padding: 32px 0 27px 0;
-    margin: 0 14px 0 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    &__body {
-    }
-    &__item {
-        display: flex;
-        align-items: center;
-    }
-    &__tempreture {
+    &_title {
+        margin: 64px 0 20px 0;
         font-size: 28px;
-        font-weight: 300;
+        font-weight: 200;
         line-height: 1.14;
         color: #2e384d;
-        margin: 0 14px 0 0;
     }
-    &__icon {
-        max-width: 22px;
+}
+@media (max-width: 768px) {
+    .content {
+        margin: 60px 0 20px 0;
+        &_title {
+            display: none;
+        }
+    }
+}
+
+.container {
+    position: relative;
+    box-sizing: content-box;
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 24px;
+    }
+}
+.card {
+    background-color: white;
+    border-radius: 1px;
+    box-shadow: 0 10px 20px 0 rgba(46, 91, 255, 0.07);
+    &-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         img {
-            width: 100%;
+            width: 15px;
         }
-    }
-    &__text {
-        font-size: 15px;
-        line-height: 1.47;
-        color: #8798ad;
-    }
-    &__button {
-        margin: 0 4px 0 0;
-        button {
-            width: 90px;
-            height: 40px;
-            padding: 9px 0 10px;
-            border-radius: 4px;
-            background-color: #f4f6fc;
-        }
-        span {
-            font-size: 15px;
-            font-weight: 500;
-            line-height: 1.4;
-            text-align: center;
+        &__title {
+            font-size: 13px;
+            letter-spacing: 1.21px;
+            text-transform: uppercase;
             color: #8798ad;
         }
     }
-}
-
-.notification {
-    display: flex;
-    align-items: center;
-    padding: 25px 0;
-    border-bottom: 1px solid #e4e8f0;
-    &__column-1 {
-        margin: 0 15px 0 0;
-    }
-    &__img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #f4f6fc;
-
-        border-radius: 50%;
-        width: 32px;
-        height: 32px;
-        position: relative;
-        span {
-            content: '';
-            display: block;
-            box-sizing: content-box;
-            width: 5px;
-            height: 5px;
-            background-color: #2e5bff;
-            border: 2px solid #fff;
-            border-radius: 50%;
-            position: absolute;
-            left: 20px;
-            top: -3px;
-        }
-        img {
-        }
+    &-container {
+        padding: 0 24px;
+        margin: 0 auto;
     }
 }
-.notification__column-2 {
-}
-.notification__title {
-    font-size: 12px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 1.13px;
-    color: #b0bac9;
-}
-.notification__text {
-    font-size: 15px;
-    line-height: 1.47;
-    color: #2e384d;
-    margin: 8px 0 5px;
-}
-.notification__time {
-    font-size: 12px;
-    line-height: 1.83;
-    color: #bfc5d2;
-}
+
+// --- HEADER ------------------
 
 .header {
     border-bottom: 1px solid #e4e8f0;
@@ -230,7 +84,9 @@ body {
         }
     }
     &__container {
-        @extend %fsbc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         box-sizing: content-box;
         width: 1140px;
         margin: 0 auto;
@@ -300,6 +156,49 @@ body {
         }
     }
 }
+@media (max-width: 768px) {
+    .header {
+        &__menu-icon {
+        }
+        &__logo {
+            padding: 0;
+            &-hide {
+                display: block;
+                width: 46px;
+            }
+        }
+        &__notification {
+            padding: 0 20px 0 0;
+            span {
+                width: 7px;
+                height: 7px;
+                left: 13px;
+                top: -1px;
+            }
+            img {
+                width: 23px;
+            }
+        }
+        &__message {
+            padding: 0 20px 0 0;
+            span {
+                width: 7px;
+                height: 7px;
+                left: 17px;
+                top: -3px;
+            }
+            img {
+                width: 23px;
+            }
+        }
+        &__avatar img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+}
+
+// --- MENU ------------------
 
 .menu {
     &-block {
@@ -322,11 +221,11 @@ body {
             display: block;
         }
     }
+    &__person {
+        margin: 42px 0 28px 0;
+    }
 }
 
-.menu__person {
-    margin: 42px 0 28px 0;
-}
 .person {
     transition: all 0.5s ease 0.1s;
     // display: none;
@@ -389,31 +288,49 @@ body {
         color: #b0bac9;
     }
 }
-
-.container {
-    position: relative;
-    box-sizing: content-box;
-    width: 1140px;
-    margin: 0 auto;
-    padding: 0 24px;
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        &-block {
+            display: block;
+            min-width: 0px;
+            z-index: 1;
+        }
+        &.active {
+            height: 500px;
+            display: flex;
+            position: absolute;
+            display: block;
+            z-index: 50;
+            transition: all 0.3s ease 0s;
+            overflow: hidden;
+            width: 215px;
+            top: 79px;
+            left: 0;
+            background: #fff;
+            .person {
+                display: flex;
+                left: 0;
+            }
+            .navigation__title {
+                display: block;
+            }
+        }
+    }
 }
 
-.content_title {
-    margin: 64px 0 20px 0;
-    font-size: 28px;
-    font-weight: 200;
-    line-height: 1.14;
-    color: #2e384d;
-}
-
+// --- SECTION 1 ------------------
 .section_1 {
     margin: 0 0 24px 0;
 }
+//               REVENUE (SECTION 1) ------------------
+
 .revenue {
     &__container {
+        padding: 32px 24px 43px 24px;
     }
     &__title {
-        // padding-bottom: 17px;
+        margin: 0 0 34px 0;
     }
     &__body {
         margin: 0 auto;
@@ -436,9 +353,9 @@ body {
         &:before {
             content: '';
             display: block;
-            margin: 6px 8px;
-            width: 12px;
-            height: 12px;
+            margin: 6px 8px 6px 0;
+            width: 10px;
+            height: 10px;
             background-color: #2e5bff;
             border-radius: 50%;
         }
@@ -452,7 +369,6 @@ body {
 
 .chart {
     margin: 9px 0 0 0;
-
     font-size: 15px;
     line-height: 1.47;
     text-align: right;
@@ -470,6 +386,7 @@ body {
     &__column_2 {
         background: url(../image/analytics/revenue_grid.svg);
         background-repeat: no-repeat;
+        background-position: bottom left;
     }
     &__img {
         padding: 26px 0 2px 0;
@@ -483,12 +400,42 @@ body {
         align-items: center;
         text-align: center;
         margin: 0 0 0 83px;
-        padding: 0 6px 43px 0;
+        padding: 0 6px 0 0;
+    }
+    &__tablet,
+    &__mobile {
+        display: none;
+    }
+}
+//    tablet     REVENUE (SECTION 1) ------------------
+
+@media (max-width: 768px) {
+    .revenue {
+        &__title {
+            margin: 0;
+        }
+        &__points {
+            margin: 24px 0 3px 0;
+        }
+    }
+    .chart {
+        &__mobile,
+        &__desctop {
+            display: none;
+        }
+        &__tablet {
+            display: block;
+            margin: 0;
+            img {
+                width: 100%;
+            }
+        }
     }
 }
 
+// --- SECTION 2 ------------------
 .section_2 {
-    margin: 0 0 34px 0;
+    margin: 0 0 48px 0;
     &-container {
         display: grid;
         grid-gap: 27px;
@@ -496,23 +443,105 @@ body {
         grid-template-rows: 1fr;
     }
 }
+.small-card {
+    &__container {
+        padding: 16px 24px 17px;
+    }
+    &__check {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        margin: 0 0 20px 0;
+        &__1 {
+            background-color: rgba(51, 172, 46, 0.15);
+        }
+        &__2 {
+            background-color: rgba(0, 193, 212, 0.15);
+        }
+        &__3 {
+            background-color: rgba(140, 84, 255, 0.15);
+        }
+        &__4 {
+            background-color: rgba(247, 193, 55, 0.15);
+        }
+    }
+    &__num {
+        font-size: 48px;
+        font-weight: 300;
+        letter-spacing: -0.6px;
+        color: #2e384d;
+        margin: 0 0 4px 0;
+    }
+    &__text {
+        font-size: 15px;
+        line-height: 1.47;
+        color: #8798ad;
+    }
+}
+
+//     tablet      --- SECTION 2 ------------------
+@media (max-width: 768px) {
+    .section_2 {
+        margin: 0 0 24px 0;
+        &-container {
+            display: grid;
+            grid-gap: 24px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+    }
+    .small-card {
+        &__container {
+            padding: 27px 24px 34px;
+
+            display: flex;
+            flex-wrap: wrap;
+        }
+        &__check {
+            margin: 0;
+        }
+        &__num {
+            margin: 0 0 3px 16px;
+        }
+        &__text {
+            margin: 0 0 0 66px;
+        }
+    }
+}
+
+// --- SECTION 3 ------------------
 .section_3 {
     &__row {
         display: flex;
     }
 }
-
-.latest_trips {
-    flex: 0 0 30%;
-    margin: 0 24px 0 0;
-    &__body {
-        margin: 19px 0 0 0;
+@media (max-width: 768px) {
+    .section_3 {
+        &__row {
+            display: block;
+        }
     }
 }
+// --- SECTION 3  LATEST TRIPS ------------------
 
+.latest_trips {
+    flex: 0 0 31.7%;
+    margin: 0 24px 0 0;
+    &__container {
+        padding: 32px 24px 22px;
+    }
+    &__title {
+        margin: 0 0 54px 0;
+    }
+    &__body {
+    }
+}
 .trip {
     font-size: 15px;
-    margin: 0 0 15px 0;
+    margin: 0 0 17px 0;
     &__row_1 {
         display: flex;
         justify-content: space-between;
@@ -520,7 +549,7 @@ body {
         font-weight: 500;
         color: #2e384d;
 
-        margin: 0 0 4px 0;
+        margin: 0 0 5px 0;
     }
     &__way {
     }
@@ -540,12 +569,81 @@ body {
         text-align: right;
     }
 }
+// --- SECTION 3  LATEST TRIPS tablet ------------------
+
+@media (max-width: 768px) {
+    .latest_trips {
+        margin: 0 0 24px 0;
+        &__container {
+            padding: 32px 24px 28px;
+        }
+        &__title {
+            margin: 0 0 35px 0;
+        }
+    }
+    .trip {
+        &:nth-child(3) {
+            margin: 0;
+        }
+        &:nth-child(4),
+        &:nth-child(5),
+        &:nth-child(6) {
+            display: none;
+        }
+    }
+}
+// --- SECTION 3  TRIPS BY WEEKDAY ------------------
 
 .trips_by_weekday {
     flex: 1 1 auto;
+    &__container {
+        padding: 32px 24px 26px;
+    }
+    &__title {
+        margin: 0 0 41px 0;
+    }
+    &__body {
+        margin: 0 auto;
+    }
+    &__points {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    &__point {
+        display: flex;
+        align-items: flex-end;
+        font-weight: 300;
+        line-height: 1.47;
+        color: #8798ad;
+        margin: 0 23px 0 0;
+        &:last-child {
+            margin: 0;
+        }
+        &:before {
+            content: '';
+            display: block;
+            margin: 6px 8px 6px 0;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+        &_1:before {
+            background-color: #2e5bff;
+        }
+        &_2:before {
+            background-color: #8c54ff;
+        }
+        &_3:before {
+            background-color: #fad050;
+        }
+    }
 }
 
 .chart_two {
+    &__tablet {
+        display: none;
+    }
     margin: 9px 0 0 0;
 
     font-size: 15px;
@@ -646,68 +744,36 @@ body {
         align-items: center;
         text-align: center;
         margin: 9px 0 0 83px;
-        padding: 0 6px 43px 0;
+        padding: 0 6px 0 0;
     }
 }
 
-.card {
-    background-color: white;
-    border-radius: 1px;
-    box-shadow: 0 10px 20px 0 rgba(46, 91, 255, 0.07);
-    &-title {
-        @extend %fsbc;
-        padding: 32px 0 33px 0;
-        img {
-            width: 15px;
+// --- SECTION 3  TRIPS BY WEEKDAY tablet ------------------
+
+@media (max-width: 768px) {
+    .trips_by_weekday {
+        &__container {
+            padding: 32px 24px 30px;
         }
         &__title {
-            font-size: 13px;
-            letter-spacing: 1.21px;
-            text-transform: uppercase;
-            color: #8798ad;
+            margin: 0 0 23px 0;
         }
-    }
-    &-container {
-        padding: 0 24px;
-        margin: 0 auto;
-    }
-}
 
-// ---- VEHICLES ON TRACK and DISTANCE DRIVEN --------------
-.small-card {
-    &__container {
-        padding: 16px 24px 17px;
-    }
-    &__check {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        margin: 0 0 16px 0;
-        &__1 {
-            background-color: rgba(51, 172, 46, 0.15);
-        }
-        &__2 {
-            background-color: rgba(0, 193, 212, 0.15);
-        }
-        &__3 {
-            background-color: rgba(140, 84, 255, 0.15);
-        }
-        &__4 {
-            background-color: rgba(247, 193, 55, 0.15);
+        &__points {
+            margin: 0 0 10px 0;
         }
     }
-    &__num {
-        font-size: 48px;
-        font-weight: 300;
-        letter-spacing: -0.6px;
-        color: #2e384d;
-    }
-    &__text {
-        font-size: 15px;
-        line-height: 1.47;
-        color: #8798ad;
+
+    .chart_two {
+        &__desctop {
+            display: none;
+        }
+        &__tablet {
+            display: block;
+        }
+        margin: 0;
+        img {
+            width: 100%;
+        }
     }
 }

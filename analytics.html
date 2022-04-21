@@ -78,7 +78,7 @@
                                 <li>
                                     <a href="index.html" class="navigation__item">
                                         <div class="navigation__icon">
-                                            <img src="image/icon/menu/Analytics.svg" alt="Analytics" />
+                                            <img src="image/icon/menu/Service.svg" alt="Service" />
                                         </div>
                                         <div class="navigation__title">Service</div>
                                     </a>
@@ -110,7 +110,7 @@
                         <div class="card revenue">
                             <div class="revenue__container card-container">
                                 <div class="revenue__title card-title">
-                                    <div class="revenue__title card-title__title">Revenue</div>
+                                    <div class="revenue__title__title card-title__title">Revenue</div>
                                     <img src="image/icon/options.svg" alt="" />
                                 </div>
                                 <div class="revenue__body">
@@ -118,7 +118,7 @@
                                         <div class="revenue__point todays-trips__point-text">Revenue</div>
                                         <div class="revenue__point todays-trips__point-text todays-trips__point--purple">Trips</div>
                                     </div>
-                                    <div class="revenue__chart chart">
+                                    <div class="revenue__chart chart chart__desctop">
                                         <div class="chart__row_1">
                                             <div class="chart__column_1">
                                                 <div>$30k</div>
@@ -131,7 +131,7 @@
                                             </div>
                                             <div class="chart__column_2">
                                                 <div class="chart__img">
-                                                    <img src="image/analytics/revenue_chart.svg" alt="" />
+                                                    <img class="desctop" src="image/analytics/revenue_chart.svg" alt="" />
                                                 </div>
                                             </div>
                                         </div>
@@ -151,6 +151,12 @@
                                             <div>May 23</div>
                                             <div>May 30</div>
                                         </div>
+                                    </div>
+                                    <div class="revenue__chart chart chart__tablet">
+                                        <img src="image/analytics/revenue_chart_tablet.svg" alt="" />
+                                    </div>
+                                    <div class="revenue__chart chart chart__mobile">
+                                        <img src="image/analytics/revenue_chart_mob.svg" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -191,8 +197,8 @@
                     <div class="section_3">
                         <div class="section_3__row">
                             <div class="latest_trips card">
-                                <div class="card-container">
-                                    <div class="card-title">
+                                <div class="latest_trips__container card-container">
+                                    <div class="latest_trips__title card-title">
                                         <div class="card-title__title">Latest Trips</div>
                                         <img src="image/icon/options.svg" alt="" />
                                     </div>
@@ -261,52 +267,62 @@
                                 </div>
                             </div>
                             <div class="trips_by_weekday card">
-                                <div class="card-container">
-                                    <div class="card-title">
+                                <div class="trips_by_weekday__container card-container">
+                                    <div class="trips_by_weekday__title card-title">
                                         <div class="card-title__title">Trips by weekday</div>
                                         <img src="image/icon/options.svg" alt="" />
                                     </div>
-                                    <div class="trips_by_weekday__chart chart_two">
-                                        <div class="chart_two__row_1">
-                                            <div class="chart_two__column_1">
-                                                <div>150</div>
-                                                <div>125</div>
-                                                <div>100</div>
-                                                <div>75</div>
-                                                <div>50</div>
-                                                <div>25</div>
-                                                <div>0</div>
-                                            </div>
-                                            <div class="chart_two__column_2">
-                                                <div class="chart_two__img">
-                                                    <div>
-                                                        <span class="span"></span>
-                                                        <span class="span"></span>
-                                                        <span class="span"></span>
-                                                        <span class="span"></span>
-                                                        <span class="span"></span>
-                                                        <span class="span"></span>
-                                                        <span class="span"></span>
-                                                        <span class="span"></span>
-                                                        <span class="span"></span>
-                                                        <span class="span"></span>
-                                                        <span class="span"></span>
-                                                        <span class="span"></span>
-                                                        <span class="span"></span>
-                                                        <span class="span"></span>
+                                    <div class="trips_by_weekday__body">
+                                        <div class="trips_by_weekday__points">
+                                            <div class="trips_by_weekday__point trips_by_weekday__point_1">Comfort</div>
+                                            <div class="trips_by_weekday__point trips_by_weekday__point_2">Premium</div>
+                                            <div class="trips_by_weekday__point trips_by_weekday__point_3">Average</div>
+                                        </div>
+                                        <div class="trips_by_weekday__chart chart_two chart_two__desctop">
+                                            <div class="chart_two__row_1">
+                                                <div class="chart_two__column_1">
+                                                    <div>150</div>
+                                                    <div>125</div>
+                                                    <div>100</div>
+                                                    <div>75</div>
+                                                    <div>50</div>
+                                                    <div>25</div>
+                                                    <div>0</div>
+                                                </div>
+                                                <div class="chart_two__column_2">
+                                                    <div class="chart_two__img">
+                                                        <div>
+                                                            <span class="span"></span>
+                                                            <span class="span"></span>
+                                                            <span class="span"></span>
+                                                            <span class="span"></span>
+                                                            <span class="span"></span>
+                                                            <span class="span"></span>
+                                                            <span class="span"></span>
+                                                            <span class="span"></span>
+                                                            <span class="span"></span>
+                                                            <span class="span"></span>
+                                                            <span class="span"></span>
+                                                            <span class="span"></span>
+                                                            <span class="span"></span>
+                                                            <span class="span"></span>
+                                                        </div>
+                                                        <img src="image/analytics/dot_chart.svg" alt="" />
                                                     </div>
-                                                    <img src="image/analytics/dot_chart.svg" alt="" />
                                                 </div>
                                             </div>
+                                            <div class="chart_two__row_2">
+                                                <div>Mon</div>
+                                                <div>Tue</div>
+                                                <div>Fri</div>
+                                                <div>Wed</div>
+                                                <div>Sat</div>
+                                                <div>Thu</div>
+                                                <div>Sun</div>
+                                            </div>
                                         </div>
-                                        <div class="chart_two__row_2">
-                                            <div>Mon</div>
-                                            <div>Tue</div>
-                                            <div>Fri</div>
-                                            <div>Wed</div>
-                                            <div>Sat</div>
-                                            <div>Thu</div>
-                                            <div>Sun</div>
+                                        <div class="trips_by_weekday__chart chart_two chart_two__tablet">
+                                            <img src="image/analytics/chart_two_tablet.svg" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -316,6 +332,7 @@
                 </div>
             </div>
         </div>
+
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="script.js"></script>
     </body>

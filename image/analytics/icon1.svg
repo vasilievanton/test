@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="15px" height="13px" viewBox="0 0 15 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>🎨 Icon color</title>
-    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="2-–-Analytics" transform="translate(-231.000000, -710.000000)" fill="#8C54FF">
-            <g id="Component/Card-Metric" transform="translate(190.000000, 676.000000)">
-                <g id="Icon-Circle" transform="translate(24.000000, 16.000000)">
+    <g id="Tablet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-–-Analytics" transform="translate(-71.000000, -664.000000)" fill="#33AC2E">
+            <g id="Component/Card-Metric" transform="translate(30.000000, 614.000000)">
+                <g id="Icon-Circle" transform="translate(24.000000, 32.000000)">
                     <g id="Element/Icon/Check" transform="translate(17.199999, 18.600000)">
                         <path d="M14.0018767,2.43666243 L5.7597287,11.1014611 C5.2288969,11.6595136 4.36951958,11.6595136 3.84004541,11.1014611 L0.397105632,7.48339744 C-0.132368544,6.92534501 -0.132368544,6.02189951 0.397105632,5.46384709 C0.927937435,4.9072219 1.78731475,4.9072219 2.31678893,5.46384709 L4.79988706,8.07427648 L12.0821934,0.418539322 C12.6116676,-0.139513107 13.4710449,-0.139513107 14.0018767,0.418539322 C14.5327085,0.975164506 14.5327085,1.87861 14.0018767,2.43666243" id="🎨-Icon-color"></path>
                     </g>
