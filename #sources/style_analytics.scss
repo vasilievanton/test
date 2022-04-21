@@ -33,6 +33,13 @@ body {
         }
     }
 }
+@media (max-width: 538px) {
+    .content {
+        &_title {
+            margin: 30px 0 20px 0;
+        }
+    }
+}
 
 .container {
     position: relative;
@@ -200,6 +207,41 @@ body {
         }
     }
 }
+@media (max-width: 425px) {
+    .header {
+        height: 50px;
+        &__menu-icon {
+            padding: 19px 24px 10px 24px;
+        }
+        &__title {
+            display: inline;
+            font-size: 15px;
+            font-weight: 500;
+            text-align: center;
+            color: #2e384d;
+        }
+        &__logo {
+            display: none;
+            &-hide {
+                width: 0px;
+            }
+        }
+        &__notification {
+            padding: 0 0 0 47px;
+            span {
+                left: 57px;
+                top: 0px;
+            }
+            img {
+                width: 19px;
+            }
+        }
+        &__message,
+        &__avatar {
+            display: none;
+        }
+    }
+}
 
 // --- MENU ------------------
 
@@ -321,6 +363,13 @@ body {
         }
     }
 }
+@media (max-width: 425px) {
+    .menu {
+        &.active {
+            top: 49px;
+        }
+    }
+}
 
 // --- SECTION 1 ------------------
 .section_1 {
@@ -410,7 +459,6 @@ body {
         display: none;
     }
 }
-//    tablet     REVENUE (SECTION 1) ------------------
 
 @media (max-width: $tablet) {
     .revenue {
@@ -427,6 +475,30 @@ body {
             display: none;
         }
         &__tablet {
+            display: block;
+            margin: 0;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 538px) {
+    .revenue {
+        &__title {
+            margin: 0;
+        }
+        &__points {
+            margin: 24px 0 3px 0;
+        }
+    }
+    .chart {
+        &__tablet,
+        &__desctop {
+            display: none;
+        }
+        &__mobile {
             display: block;
             margin: 0;
             img {
@@ -485,8 +557,6 @@ body {
     }
 }
 
-//     tablet      --- SECTION 2 ------------------
-
 @media (max-width: 1180px) {
     .section_2 {
         margin: 0 0 24px 0;
@@ -514,6 +584,47 @@ body {
             margin: 0 0 3px 0;
         }
         &__text {
+            margin: 0;
+        }
+    }
+}
+@media (max-width: 692px) {
+    .section_2 {
+        margin: 0 0 18px 0;
+        &-container {
+            display: grid;
+            grid-gap: 14px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+        }
+    }
+    .small-card {
+        &:nth-child(3),
+        &:nth-child(4) {
+            display: none;
+        }
+        &__container {
+            display: block;
+            padding: 16px 21px 17px;
+        }
+        &__check {
+            width: 50px;
+            height: 50px;
+            margin: 0 0 17px 0;
+        }
+        &__body {
+            margin: 0;
+        }
+        &__num {
+            font-size: 34px;
+            line-height: 0.94;
+            letter-spacing: -0.6px;
+            margin: 0 0 6px 0;
+        }
+        &__text {
+            font-size: 15px;
+            line-height: 1.47;
+            color: #8798ad;
             margin: 0;
         }
     }
@@ -648,7 +759,8 @@ body {
 }
 
 .chart_two {
-    &__tablet {
+    &__tablet,
+    &__mobile {
         display: none;
     }
     margin: 9px 0 0 0;
@@ -755,8 +867,6 @@ body {
     }
 }
 
-// --- SECTION 3  TRIPS BY WEEKDAY tablet ------------------
-
 @media (max-width: 1280px) {
     .trips_by_weekday {
         &__container {
@@ -772,7 +882,8 @@ body {
     }
 
     .chart_two {
-        &__desctop {
+        &__desctop,
+        &__mobile {
             display: none;
         }
         &__tablet {
@@ -782,6 +893,18 @@ body {
         max-width: 800px;
         img {
             width: 100%;
+        }
+    }
+}
+
+@media (max-width: 538px) {
+    .chart_two {
+        &__desctop,
+        &__tablet {
+            display: none;
+        }
+        &__mobile {
+            display: block;
         }
     }
 }
